@@ -1,5 +1,5 @@
 import numpy as np
-import ImportData, Cal
+import motor.ImportData as ImportData, motor.Cal as Cal
 import KF, LSTM, AddNoise
 
 class KalmanFilter:

@@ -3,7 +3,7 @@ import torch
 import torch.nn as nn
 import os
 os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
-import ImportData, Cal
+import motor.ImportData as ImportData, motor.Cal as Cal
 import KF, KF_sim, LSTM
 # 強制使用CPU
 # device = torch.device("cpu") 
